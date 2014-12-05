@@ -196,7 +196,7 @@ print OUT "$code_dir/addAnnotation.pl $data_dir/hg19_exac02.txt                 
 print OUT "$code_dir/addAnnotation.pl $data_dir/hg19_exac02.1.txt               $FILE.a.c.s.p.h.c.A.m.m.m.t.c.e >$FILE.a.c.s.p.h.c.A.m.m.m.t.c.e.e\n";
 print OUT "$code_dir/add_WWW.pl                                                 $FILE.a.c.s.p.h.c.A.m.m.m.t.c.e.e >$FILE.a.c.s.p.h.c.A.m.m.m.t.c.e.e.l\n";
 print OUT "$code_dir/joinAllAnnotations.pl $FILE.a.c.s.p.h.c.A.m.m.m.t.c.e.e.l $FILE $cs >$FILE.annotated.txt\n";
-print OUT " rm -rf $FILE.a.c.* $FILE.annovar $FILE.sift.out $FILE.polyphen2.out \n";
+print OUT " rm -rf $FILE.a.c.* $FILE.annovar $FILE.sift.out $FILE.polyphen2.out $FILE.pph join_$FILE.sh anpph* ansift* annvar.e* annovar.o* \n";
 print OUT "chmod 760 $FILE.annotated.txt\n";
 print OUT "chgrp khanlab $FILE.annotated.txt\n";
 print OUT "echo -e \"Annotation Pipeline finished on File $FILE\\n Please collect result from $DIR\\n\\nRegards, \\nOncogenomics Section\\nNCI\" |mutt  -s \"Annotation Pipeline Status\"  `whoami`\@mail.nih.gov\n";
