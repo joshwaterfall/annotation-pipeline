@@ -1,0 +1,35 @@
+-------- running PBS epilogue script (8155663.biobos p2771 patidarr) --------
+
+Show some job stats:
+
+8155663.biobos elapsed time:          436 seconds
+8155663.biobos walltime:         00:06:56 hh:mm:ss
+8155663.biobos memory limit:        61.46 GB
+8155663.biobos memory used:          2.69 GB
+8155663.biobos cpupercent used:     96.00 %
+
+housekeeping: p2771 System is CentOS/Redhat 5
+
+>>>> Generic: <<<<
+building file list ... done
+etc/
+etc/pam.d/
+etc/rc.d/
+etc/rc.d/init.d/
+
+sent 973 bytes  received 44 bytes  2034.00 bytes/sec
+total size is 339021  speedup is 333.35
+
+>>>> Generic-static: <<<<
+building file list ... done
+etc/
+etc/pam.d/
+etc/rc.d/
+etc/rc.d/init.d/
+
+sent 1996 bytes  received 44 bytes  4080.00 bytes/sec
+total size is 2743944  speedup is 1345.07
+Updating SSH keys...
+Building ssh_known_hosts and shosts.equiv files...
+
+------------- done PBS epilogue script -------------
